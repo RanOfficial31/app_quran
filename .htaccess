@@ -1,0 +1,22 @@
+RewriteEngine On
+
+# Atur default halaman utama menjadi index.php
+Directoryindex index.php
+
+RewriteRule ^quran_surah$ surah.php [L]
+
+RewriteRule ^surah$ surah_detail.php [L]
+
+RewriteRule ^doa$ doa.php [L]
+
+RewriteRule ^asmaul_husna$ asmaul_husna.php [L]
+
+RewriteRule ^doa_tahlil$ doa_tahlil.php [l]
+
+RewriteRule ^dzikir$ dzikir.php [l]
+
+RewriteRule ^error500$ error.php [l]
+
+
+
+
